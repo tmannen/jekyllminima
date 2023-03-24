@@ -48,6 +48,11 @@ $right-sidebar-width-wide: 400px !default;
   font-size: $base-font-size * $ratio;
 }
 
+@import "minima/mmistakes_variables";
+@import "minima/vendor/breakpoint/breakpoint";
+@include breakpoint-set("to ems", true);
+@import "minima/mixins";
+
 // Import partials.
 @import
   "minima/base",
