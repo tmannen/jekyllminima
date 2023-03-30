@@ -10,6 +10,26 @@ dl, dd, ol, ul, figure {
 
 
 
+.page-splash-title {
+  @include relative-font-size(4);
+  font-weight: 300;
+  //line-height: $base-line-height * $base-font-size * 2.25;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  //float: left;
+  color: $grey-color-light
+}
+
+.page-lead {
+  @include relative-font-size(1.625);
+  //line-height: $base-line-height * $base-font-size * 2.25;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  //float: left;
+  color: $grey-color-light
+}
+
+
 /**
  * Basic styling
  */

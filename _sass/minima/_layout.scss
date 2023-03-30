@@ -15,11 +15,15 @@
   position: relative;
 }
 
-.site-header-wrapper {
+.site-header-wrapper, .splash-wrapper {
   margin-left: 5%;
   margin-right: 5%;
   max-width: -webkit-calc(#{$header-width} - (#{$spacing-unit} * 2));
   max-width:         calc(#{$header-width} - (#{$spacing-unit} * 2));
+}
+
+.splash-wrapper {
+  padding-top: 50px;
 }
 
 .site-title {
